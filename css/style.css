@@ -1,0 +1,251 @@
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover {
+  opacity: 0.6;
+}
+li {
+  list-style: none;
+}
+body {
+  margin: 0 auto;
+}
+h2 {
+  font-family: "Noto Sans JP";
+  font-size: 30px;
+  line-height: 45px;
+}
+p {
+  font-family: "Noto Sans JP";
+  font-size: 15px;
+  line-height: 27px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.red-button {
+  background-color: #b03636;
+  color: #ffffff;
+}
+.gray-button {
+  background-color: #535965;
+  color: #ffffff;
+}
+.white-button {
+  background-color: #ffffff;
+  color: #0141c3;
+}
+.red-button a:visited {
+  color: #ffffff;
+}
+.gray-button a:visited {
+  color: #ffffff;
+}
+
+.white-button a:visited {
+  color: #0141c3;
+}
+.small-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 282px;
+  height: 28px;
+}
+.middle-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 290px;
+  height: 64px;
+}
+.big-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 390px;
+  height: 90px;
+}
+/* ------------------------
+ヘッダー
+ ------------------------ */
+#header {
+  background-color: #535965;
+}
+#header a {
+  color: #ffffff;
+}
+#header a:visited {
+  color: #ffffff;
+}
+#header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 15px;
+  font-family: "Noto Sans JP";
+  height: 120px;
+}
+
+/* ------------------------
+メイン
+ ------------------------ */
+/* top */
+.top {
+  background-color: #535965;
+}
+.top .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top h1 {
+  color: #ffffff;
+  font-size: 64px;
+  font-family: "Noto Sans Elbasan";
+  font-weight: 106px;
+  letter-spacing: 25.75px;
+  text-align: center;
+}
+/* about */
+.about {
+  color: #535965;
+  padding: 5% 0% 5% 0%;
+}
+
+.about-am {
+  display: flex;
+  justify-content: space-around;
+}
+
+.asset-management {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+/* support-course */
+.support-course {
+  padding: 5% 0% 5% 0%;
+}
+.support-course h2 {
+  text-align: center;
+}
+.support-course .container {
+  display: flex;
+  justify-content: space-around;
+}
+.private {
+  width: 491px;
+}
+.asset-building {
+  width: 491px;
+}
+/* information */
+.information {
+  background-color: #f7f7f7;
+  padding: 5% 0% 5% 0%;
+}
+.information .container {
+  display: flex;
+  justify-content: space-around;
+}
+.information dl {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5% 0% 10% 0%;
+}
+.dt-top {
+  width: 95%;
+  border-top: solid 1px #e1e3e6;
+}
+.information dt {
+  color: #81848e;
+  padding: 5% 0% 2% 0%;
+}
+.information span {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #b03636;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 3px;
+  margin-left: 10px;
+}
+.information dd {
+  width: 95%;
+  border-bottom: solid 1px #e1e3e6;
+  padding-bottom: 5%;
+}
+.information-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.information-detail h2 {
+  align-self: flex-start;
+}
+.information a {
+  margin-top: auto;
+}
+/* introduce-support */
+.introduce-support {
+  background-color: #535965;
+  color: #ffffff;
+  padding: 5% 0%;
+}
+.introduce-support .container {
+  display: flex;
+  justify-content: space-around;
+}
+.introduce-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/* contact */
+.contact {
+  padding: 5% 0%;
+}
+.contact h3 {
+  text-align: center;
+  margin: 5% 0%;
+}
+.contact .container {
+  display: flex;
+  justify-content: space-around;
+}
+.contact .red-button span {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 3px;
+  padding: 2px 5px;
+  margin-left: 10px;
+}
+/* ------------------------
+フッター
+ ------------------------ */
+#footer ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 13px;
+  font-family: "Noto Sans JP";
+}
+#footer a {
+  color: #333333;
+}
+#footer a:visited {
+  color: #333333;
+}
+#footer .container {
+  padding: 5% 0% 5% 0%;
+}
+.copyright {
+  color: #9d9d9d;
+  text-align: right;
+  padding: 0% 3% 5% 0%;
+}
